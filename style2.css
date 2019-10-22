@@ -1,0 +1,107 @@
+body {
+    background-color: white;
+    padding-top: 125px;
+}
+
+.r-back {
+    position: absolute;
+    top: 135px;
+    width: 250px;
+    height: 250px;
+    background-color: #00fc28;
+}
+
+.r-sq1 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 150px;
+    left: 140px;
+    background-color: white;
+}
+
+.r-sq2 {
+    position: absolute;
+    width: 80px;
+    height: 100px;
+    top: 285px;
+    left: 140px;
+    background-color: white;
+}
+
+.u-back {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 150px;
+    left: 325px;
+    background-color: #00fc28;
+}
+
+.u-sq1 {
+    position: absolute;
+    width: 150px;
+    height: 160px;
+    top: 135px;
+    left: 375px;
+    background-color:white;
+}
+
+.n-back {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 144px;
+    left: 610px;
+    background-color: #00fc28;
+}
+
+.n-tri1 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 225px;
+    left: 630px;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 160px solid white;
+}
+
+.n-tri2 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 143px;
+    left: 700px;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 160px solid white;
+}
+
+.line1 {
+    position: absolute;
+    top: 385px;
+    width: 325px;
+    height: 10px;
+    background-color: black
+}
+
+.line3 {
+    position: absolute;
+    top: 385px;
+    left: 575px;
+    width: 500px;
+    height: 10px;
+    background-color: black
+}
+
+#r {
+    z-index: 99;
+    position: absolute;
+    left: 290px;
+    width: 200px;
+    height: 200px;
+}
+
+#r:hover {
+    left: 700px;
